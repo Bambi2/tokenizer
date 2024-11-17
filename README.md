@@ -25,7 +25,7 @@ Build container
 
 Create a wallet
 
-`docker run wallet ./g42 createWallet`
+`docker run tokenizer ./g42 createWallet`
 
 Deployment with example of possible parameters
-`docker run wallet ./g42  deploy --norc=2 --owners="address1,address2" --pkey="private key"`
+`docker run tokenizer ./g42  deploy --norc=2 --owners="address1,address2" --pkey="private key"`
